@@ -687,7 +687,7 @@ async function fluxoConfirmacao() {
 
 
     await addMessage(
-        "Negocie dívidas com as seguintes empresas:"
+        "Negocie suas dívidas com as empresas abaixo e diversas outras participantes do programa:"
     );
 
 
