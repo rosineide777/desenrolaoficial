@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenrola Brasil</title>
+    
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fonte Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#f0f2f5] min-h-screen flex flex-col items-center justify-start p-0 m-0">
+
+    <!-- Imagem Ponta a Ponta (Largura Total da Tela) -->
+    <div class="w-full h-48 sm:h-64 md:h-80 lg:h-96 overflow-hidden bg-gray-200">
+        <img 
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8gChPHsccMy9YblZPmY2DlZkI1W_5Ihs5BEqgzACgeHJoZ31VVoTs-jM&s=10" 
+            alt="Desenrola Brasil" 
+            class="w-full h-full object-cover object-center block"
+        >
+    </div>
+
+    <!-- Container do Card Centralizado (Sobrepondo a Imagem) -->
+    <main class="w-full max-w-md md:max-w-lg lg:max-w-xl px-4 -mt-12 sm:-mt-16 z-10 mb-12">
+        <div class="bg-white rounded-3xl shadow-lg p-6 sm:p-8 md:p-10 text-center flex flex-col items-center">
+            
+            <!-- Logo Desenrola Brasil -->
+            <div class="flex flex-col items-center mb-6">
+                <!-- Ícone via URL fornecida -->
+                <div class="w-16 h-16 sm:w-20 sm:h-20 mb-3 flex items-center justify-center">
+                    <img 
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0bIwFvjNmY8Cj8iWmH8Ut-7NfEtIM_yV89dnbIBFbOmnqwAVnm8wyQC5c&s=10" 
+                        alt="Ícone Desenrola Brasil" 
+                        class="w-full h-full object-contain"
+                    >
+                </div>
+
+                <!-- Texto do Logo -->
+                <div class="text-center leading-none">
+                    <h1 class="text-2xl sm:text-3xl font-black tracking-tight text-[#0052cc] uppercase">
+                        Desenrola
+                    </h1>
+                    <h2 class="text-2xl sm:text-3xl font-black tracking-tight text-[#00b050] uppercase mt-0.5">
+                        Brasil
+                    </h2>
+                </div>
+            </div>
+
+            <!-- Descrição Principal -->
+            <p class="text-[#0052cc] font-bold text-base sm:text-lg md:text-xl leading-snug max-w-xs sm:max-w-sm mb-4">
+                O Programa Desenrola Brasil possibilita a renegociação de dívidas com descontos de até 99%
+            </p>
+
+            <!-- Chamada para Ação -->
+            <p class="text-gray-600 text-sm sm:text-base mb-6">
+                Clique no botão abaixo para<br class="hidden sm:inline"> acessar a plataforma
+            </p>
+
+            <!-- Botão Principal -->
+            <a 
+                href="./index2.html" 
+                class="w-full max-w-sm bg-[#2552b7] hover:bg-[#1d4297] text-white font-bold text-base sm:text-lg py-3.5 sm:py-4 px-6 rounded-full transition-all duration-200 shadow-md hover:shadow-lg uppercase tracking-wider block text-center mb-8"
+            >
+                Acessar Agora
+            </a>
+
+            <!-- Divisor -->
+            <div class="w-full border-t border-gray-200 mb-6"></div>
+
+            <!-- Rodapé -->
+            <footer class="text-[11px] sm:text-xs text-gray-400 leading-relaxed font-medium uppercase tracking-wide max-w-sm">
+                <p class="font-semibold text-gray-500">INARA SUED NASCIMENTO COSTA</p>
+                <p>Q CLS 4 BLOCO A (COMERCIO), LJ 02, LOTE 02, RIACHO FUNDO I,</p>
+                <p>BRASÍLIA - DF, CEP 71820-511, Brasil</p>
+                <p class="mt-1">CNPJ: 05.475.756/0001-00</p>
+            </footer>
+
+        </div>
+    </main>
+
+</body>
+</html>
